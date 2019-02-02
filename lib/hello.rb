@@ -3,9 +3,9 @@ def hello_t(array)
     i = 0
   
     while i < array.length 
-    yield(array[i])
-    i = i + l 
-  end
+      yield(array[i])
+      i = i + l 
+    end
   
     array
   else
